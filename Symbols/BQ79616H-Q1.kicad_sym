@@ -604,7 +604,7 @@
 				)
 			)
 			(pin power_out line
-				(at 45.72 -218.44 180)
+				(at 45.72 -243.84 180)
 				(length 7.62)
 				(name "REFHM"
 					(effects
@@ -622,7 +622,7 @@
 				)
 			)
 			(pin power_in line
-				(at 45.72 -215.9 180)
+				(at 45.72 -241.3 180)
 				(length 7.62)
 				(name "REFHP"
 					(effects
@@ -640,7 +640,7 @@
 				)
 			)
 			(pin power_in line
-				(at 45.72 -210.82 180)
+				(at 45.72 -236.22 180)
 				(length 7.62)
 				(name "AVDD"
 					(effects
@@ -658,7 +658,7 @@
 				)
 			)
 			(pin power_out line
-				(at 45.72 -208.28 180)
+				(at 45.72 -233.68 180)
 				(length 7.62)
 				(name "AVSS"
 					(effects
@@ -694,7 +694,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 45.72 -203.2 180)
+				(at 45.72 -223.52 180)
 				(length 7.62)
 				(name "COMLP"
 					(effects
@@ -712,7 +712,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 45.72 -200.66 180)
+				(at 45.72 -215.9 180)
 				(length 7.62)
 				(name "COMLN"
 					(effects
@@ -730,7 +730,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 45.72 -198.12 180)
+				(at 45.72 -205.74 180)
 				(length 7.62)
 				(name "COMHN"
 					(effects
@@ -748,7 +748,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 45.72 -195.58 180)
+				(at 45.72 -198.12 180)
 				(length 7.62)
 				(name "COMHP"
 					(effects
@@ -1126,7 +1126,7 @@
 				)
 			)
 			(pin output line
-				(at 45.72 -187.96 180)
+				(at 45.72 -167.64 180)
 				(length 7.62)
 				(name "NFAULT"
 					(effects
@@ -1234,7 +1234,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 45.72 -226.06 180)
+				(at 45.72 -251.46 180)
 				(length 7.62)
 				(name "EPAD"
 					(effects
