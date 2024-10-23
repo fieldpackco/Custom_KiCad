@@ -584,7 +584,7 @@
 				)
 			)
 			(pin input line
-				(at -30.48 0 0)
+				(at -30.48 -10.16 0)
 				(length 5.08)
 				(name "~{BOOT}"
 					(effects

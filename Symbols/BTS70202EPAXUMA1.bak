@@ -126,7 +126,7 @@
 				)
 			)
 			(pin output line
-				(at 17.78 -10.16 180)
+				(at 17.78 -12.7 180)
 				(length 5.08)
 				(name "OUT1__2"
 					(effects
@@ -144,7 +144,7 @@
 				)
 			)
 			(pin output line
-				(at 17.78 7.62 180)
+				(at 17.78 2.54 180)
 				(length 5.08)
 				(name "OUT0"
 					(effects
@@ -162,7 +162,7 @@
 				)
 			)
 			(pin output line
-				(at 17.78 5.08 180)
+				(at 17.78 0 180)
 				(length 5.08)
 				(name "OUT0__1"
 					(effects
@@ -180,7 +180,7 @@
 				)
 			)
 			(pin output line
-				(at 17.78 2.54 180)
+				(at 17.78 -2.54 180)
 				(length 5.08)
 				(name "OUT0__2"
 					(effects
@@ -198,7 +198,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -17.78 180)
+				(at 17.78 10.16 180)
 				(length 5.08)
 				(name "VS"
 					(effects
@@ -252,7 +252,7 @@
 				)
 			)
 			(pin output line
-				(at 17.78 -15.24 180)
+				(at 17.78 -17.78 180)
 				(length 5.08)
 				(name "IS"
 					(effects
@@ -306,7 +306,7 @@
 				)
 			)
 			(pin output line
-				(at 17.78 -5.08 180)
+				(at 17.78 -7.62 180)
 				(length 5.08)
 				(name "OUT1"
 					(effects
@@ -324,7 +324,7 @@
 				)
 			)
 			(pin output line
-				(at 17.78 -7.62 180)
+				(at 17.78 -10.16 180)
 				(length 5.08)
 				(name "OUT1__1"
 					(effects

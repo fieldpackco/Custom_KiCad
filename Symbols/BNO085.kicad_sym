@@ -10,7 +10,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -25.4 21.59 0)
+			(at -25.4 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19,7 +19,7 @@
 			)
 		)
 		(property "Value" "BNO085"
-			(at -25.4 -25.4 0)
+			(at -25.4 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28,7 +28,7 @@
 			)
 		)
 		(property "Footprint" "BNO085:IC_BNO085"
-			(at 0 0 0)
+			(at 91.44 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56,7 +56,7 @@
 			)
 		)
 		(property "MF" "Hillcrest Laboratories,"
-			(at 0 0 0)
+			(at 91.44 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66,7 +66,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.18mm"
-			(at 0 0 0)
+			(at 91.44 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -76,7 +76,7 @@
 			)
 		)
 		(property "Package" "TFLGA-28 Hillcrest Laboratories"
-			(at 0 0 0)
+			(at 91.44 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -85,8 +85,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "None"
-			(at 0 0 0)
+		(property "Price" ""
+			(at 91.44 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -96,7 +96,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/BNO085/Hillcrest+Laboratories%252C+Inc./view-part/?ref=eda"
-			(at 0 0 0)
+			(at 91.44 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -106,7 +106,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 0 0 0)
+			(at 91.44 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -116,7 +116,7 @@
 			)
 		)
 		(property "PARTREV" "v1.17"
-			(at 0 0 0)
+			(at 91.44 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -126,7 +126,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BNO085/Hillcrest+Laboratories%252C+Inc./view-part/?ref=snap"
-			(at 0 0 0)
+			(at 93.98 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -136,7 +136,7 @@
 			)
 		)
 		(property "MP" "BNO085"
-			(at 0 0 0)
+			(at 91.44 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -146,7 +146,7 @@
 			)
 		)
 		(property "Description_1" "\nAccelerometer, Gyroscope, Magnetometer, 9 Axis Sensor I²C, SPI, UART Output\n"
-			(at 0 0 0)
+			(at 91.44 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -155,8 +155,8 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" "Not in stock"
-			(at 0 0 0)
+		(property "Availability" ""
+			(at 91.44 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -166,7 +166,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Hillcrest Laboratories, Inc."
-			(at 0 0 0)
+			(at 93.98 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -177,8 +177,8 @@
 		)
 		(symbol "BNO085_0_0"
 			(rectangle
-				(start -25.4 -22.86)
-				(end 25.4 20.32)
+				(start -25.4 20.32)
+				(end 25.4 -45.72)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -188,7 +188,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -30.48 -20.32 0)
+				(at -30.48 -22.86 0)
 				(length 5.08)
 				(name "RESV_NC"
 					(effects
@@ -242,7 +242,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -30.48 -20.32 0)
+				(at -30.48 -30.48 0)
 				(length 5.08)
 				(name "RESV_NC"
 					(effects
@@ -260,7 +260,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -30.48 -20.32 0)
+				(at -30.48 -33.02 0)
 				(length 5.08)
 				(name "RESV_NC"
 					(effects
@@ -422,7 +422,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -30.48 -20.32 0)
+				(at -30.48 -35.56 0)
 				(length 5.08)
 				(name "RESV_NC"
 					(effects
@@ -440,7 +440,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -30.48 -20.32 0)
+				(at -30.48 -38.1 0)
 				(length 5.08)
 				(name "RESV_NC"
 					(effects
@@ -458,7 +458,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -30.48 -20.32 0)
+				(at -30.48 -40.64 0)
 				(length 5.08)
 				(name "RESV_NC"
 					(effects
@@ -476,7 +476,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -30.48 -20.32 0)
+				(at -30.48 -43.18 0)
 				(length 5.08)
 				(name "RESV_NC"
 					(effects
@@ -638,7 +638,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -30.48 -20.32 0)
+				(at -30.48 -25.4 0)
 				(length 5.08)
 				(name "RESV_NC"
 					(effects
@@ -656,7 +656,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -30.48 -20.32 0)
+				(at -30.48 -27.94 0)
 				(length 5.08)
 				(name "RESV_NC"
 					(effects

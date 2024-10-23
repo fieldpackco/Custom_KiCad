@@ -603,42 +603,6 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 45.72 -243.84 180)
-				(length 7.62)
-				(name "REFHM"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "36"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 45.72 -241.3 180)
-				(length 7.62)
-				(name "REFHP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "37"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
 				(at 45.72 -236.22 180)
 				(length 7.62)
@@ -650,24 +614,6 @@
 					)
 				)
 				(number "38"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 45.72 -233.68 180)
-				(length 7.62)
-				(name "AVSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "39"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -784,42 +730,6 @@
 				)
 			)
 			(pin power_in line
-				(at 45.72 -185.42 180)
-				(length 7.62)
-				(name "CVDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "45"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 45.72 -182.88 180)
-				(length 7.62)
-				(name "CVSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "46"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
 				(at 45.72 -10.16 180)
 				(length 7.62)
 				(name "LDOIN"
@@ -830,42 +740,6 @@
 					)
 				)
 				(number "47"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 45.72 0 180)
-				(length 7.62)
-				(name "NPNB"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "48"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 45.72 -177.8 180)
-				(length 7.62)
-				(name "DVDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "49"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -884,24 +758,6 @@
 					)
 				)
 				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 45.72 -175.26 180)
-				(length 7.62)
-				(name "DVSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "50"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1126,7 +982,7 @@
 				)
 			)
 			(pin output line
-				(at 45.72 -167.64 180)
+				(at 45.72 -160.02 180)
 				(length 7.62)
 				(name "NFAULT"
 					(effects
@@ -1233,7 +1089,164 @@
 					)
 				)
 			)
-			(pin unspecified line
+		)
+		(symbol "BQ79616HPAPRQ1_1_1"
+			(rectangle
+				(start 7.62 7.62)
+				(end 38.1 -266.7)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_in line
+				(at 45.72 -243.84 180)
+				(length 7.62)
+				(name "REFHM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "36"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 45.72 -241.3 180)
+				(length 7.62)
+				(name "REFHP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "37"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 45.72 -233.68 180)
+				(length 7.62)
+				(name "AVSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "39"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 45.72 -185.42 180)
+				(length 7.62)
+				(name "CVDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "45"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 45.72 -182.88 180)
+				(length 7.62)
+				(name "CVSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "46"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 45.72 0 180)
+				(length 7.62)
+				(name "NPNB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "48"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 45.72 -177.8 180)
+				(length 7.62)
+				(name "DVDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "49"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 45.72 -175.26 180)
+				(length 7.62)
+				(name "DVSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "50"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at 45.72 -251.46 180)
 				(length 7.62)
 				(name "EPAD"
@@ -1249,19 +1262,6 @@
 							(size 1.27 1.27)
 						)
 					)
-				)
-			)
-		)
-		(symbol "BQ79616HPAPRQ1_1_1"
-			(rectangle
-				(start 7.62 7.62)
-				(end 38.1 -266.7)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
 				)
 			)
 		)

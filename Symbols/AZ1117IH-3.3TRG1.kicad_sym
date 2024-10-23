@@ -81,24 +81,6 @@
 			)
 		)
 		(symbol "AZ1117IH-3.3TRG1_0_1"
-			(pin power_out line
-				(at 0 -8.89 0)
-				(length 7.62)
-				(name "ADJ/GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin output line
 				(at 35.56 1.27 180)
 				(length 7.62)
@@ -117,7 +99,38 @@
 					)
 				)
 			)
-			(pin unspecified line
+		)
+		(symbol "AZ1117IH-3.3TRG1_1_1"
+			(rectangle
+				(start 7.62 3.81)
+				(end 27.94 -11.43)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_in line
+				(at 0 -8.89 0)
+				(length 7.62)
+				(name "ADJ/GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
 				(at 0 1.27 0)
 				(length 7.62)
 				(name "INPUT"
@@ -133,19 +146,6 @@
 							(size 1.27 1.27)
 						)
 					)
-				)
-			)
-		)
-		(symbol "AZ1117IH-3.3TRG1_1_1"
-			(rectangle
-				(start 7.62 3.81)
-				(end 27.94 -11.43)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
 				)
 			)
 		)
