@@ -27,7 +27,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Phoenix_Contact:PHOENIX_1017503"
+		(property "Footprint" "1017503:PHOENIX_1017503"
 			(at 0 7.62 0)
 			(effects
 				(font
