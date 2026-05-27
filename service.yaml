@@ -1,0 +1,14 @@
+schema_version: "1.0"
+name: custom-kicad
+description: |
+  KiCad library: custom footprints, symbols, 3D models used across Oliver's hardware designs (control_node and predecessors). If this library disappears, hardware layouts will not render correctly.
+kind: docs
+status: active
+visibility: internal
+owner: runchal
+language: docs-derived
+repo: https://github.com/fieldpackco/Custom_KiCad
+depends_on: []
+tags:
+  - oliver-preservation
+onboarding: true
